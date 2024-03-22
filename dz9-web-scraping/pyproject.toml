@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dz9-web-scraping"
+version = "0.1.0"
+description = ""
+authors = ["ElenaPolkhovaS <148061037+ElenaPolkhovaS@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+lxml = "^5.1.0"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+playwright = "^1.42.0"
+scrapy = "^2.11.1"
+itemadapter = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
